@@ -14,6 +14,11 @@
 		D74C2A122411771F00709517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74C2A102411771F00709517 /* Main.storyboard */; };
 		D74C2A142411772100709517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74C2A132411772100709517 /* Assets.xcassets */; };
 		D74C2A172411772100709517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74C2A152411772100709517 /* LaunchScreen.storyboard */; };
+		D74C2A1F24117EA300709517 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C2A1E24117EA300709517 /* Player.swift */; };
+		D74C2A21241181C100709517 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C2A20241181C100709517 /* Enemy.swift */; };
+		D74C2A232411820000709517 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C2A222411820000709517 /* GameObject.swift */; };
+		D74C2A252411863800709517 /* ContactMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C2A242411863800709517 /* ContactMask.swift */; };
+		D74C2A27241191B200709517 /* EnemySpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C2A26241191B200709517 /* EnemySpawner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		D74C2A132411772100709517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D74C2A162411772100709517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D74C2A182411772100709517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74C2A1E24117EA300709517 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D74C2A20241181C100709517 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		D74C2A222411820000709517 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		D74C2A242411863800709517 /* ContactMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMask.swift; sourceTree = "<group>"; };
+		D74C2A26241191B200709517 /* EnemySpawner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemySpawner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				D74C2A132411772100709517 /* Assets.xcassets */,
 				D74C2A152411772100709517 /* LaunchScreen.storyboard */,
 				D74C2A182411772100709517 /* Info.plist */,
+				D74C2A1E24117EA300709517 /* Player.swift */,
+				D74C2A20241181C100709517 /* Enemy.swift */,
+				D74C2A222411820000709517 /* GameObject.swift */,
+				D74C2A242411863800709517 /* ContactMask.swift */,
+				D74C2A26241191B200709517 /* EnemySpawner.swift */,
 			);
 			path = SpriteKitWshop;
 			sourceTree = "<group>";
@@ -142,7 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74C2A1F24117EA300709517 /* Player.swift in Sources */,
+				D74C2A21241181C100709517 /* Enemy.swift in Sources */,
+				D74C2A232411820000709517 /* GameObject.swift in Sources */,
+				D74C2A27241191B200709517 /* EnemySpawner.swift in Sources */,
 				D74C2A0D2411771F00709517 /* GameScene.swift in Sources */,
+				D74C2A252411863800709517 /* ContactMask.swift in Sources */,
 				D74C2A0F2411771F00709517 /* GameViewController.swift in Sources */,
 				D74C2A072411771F00709517 /* AppDelegate.swift in Sources */,
 			);

@@ -20,6 +20,8 @@ class EnemySpawner: Updateable {
     }
     
     
+    
+    
     func update(_ deltaTime: CGFloat) {
         self.spawnCountdown -= TimeInterval(deltaTime)
         
@@ -32,6 +34,8 @@ class EnemySpawner: Updateable {
 //            let $0 = enemy
 //            $0.update(deltaTime)
 //        }
+        
+        
         self.enemies.forEach { $0.update(deltaTime) }
         self.clearEnemies()
     }
